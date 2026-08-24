@@ -1,0 +1,7 @@
+interface:
+  display_name: "Orca Adaptive Orchestrator"
+  short_description: "Plan or force-dispatch adaptive Orca agent teams"
+  default_prompt: "Use $orca-adaptive-orchestrator to force-dispatch this change with an explicit Runner and model."
+
+policy:
+  allow_implicit_invocation: false
