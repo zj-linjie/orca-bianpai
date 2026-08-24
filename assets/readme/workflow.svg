@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Orca supervised workflow</title>
+  <desc id="desc">The supervised workflow from an objective to accepted evidence, with repair and decision gates for uncertain outcomes.</desc>
+
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#9AB6A0" stroke-opacity="0.07"/>
+    </pattern>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#8DF2A8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="#0B1110"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="url(#grid)" stroke="#294034"/>
+  <text x="48" y="48" fill="#E7F1E7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="25" font-weight="700">One objective, five accountable states</text>
+  <text x="48" y="77" fill="#84978A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">PLAN → PLACE → RUN → VERIFY → ACCEPT / REPAIR / GATE</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif">
+    <g transform="translate(48 112)">
+      <rect width="188" height="98" rx="16" fill="#14251A" stroke="#426B4D"/>
+      <text x="20" y="34" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">01 / RUN</text>
+      <text x="20" y="63" fill="#E7F1E7" font-size="21" font-weight="650">Objective</text>
+      <text x="20" y="86" fill="#A4B3A6" font-size="17">scope + authority</text>
+    </g>
+    <path d="M246 161H274" stroke="#8DF2A8" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(286 112)">
+      <rect width="188" height="98" rx="16" fill="#14251A" stroke="#426B4D"/>
+      <text x="20" y="34" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">02 / TASK</text>
+      <text x="20" y="63" fill="#E7F1E7" font-size="21" font-weight="650">Bounded work</text>
+      <text x="20" y="86" fill="#A4B3A6" font-size="17">deps + quality gate</text>
+    </g>
+    <path d="M484 161H512" stroke="#8DF2A8" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(524 112)">
+      <rect width="188" height="98" rx="16" fill="#14251A" stroke="#426B4D"/>
+      <text x="20" y="34" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">03 / DISPATCH</text>
+      <text x="20" y="63" fill="#E7F1E7" font-size="21" font-weight="650">Lifecycle</text>
+      <text x="20" y="86" fill="#A4B3A6" font-size="17">owner + capability</text>
+    </g>
+    <path d="M722 161H750" stroke="#8CB4FF" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(762 112)">
+      <rect width="188" height="98" rx="16" fill="#182331" stroke="#49668E"/>
+      <text x="20" y="34" fill="#A8C5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">04 / WORKER</text>
+      <text x="20" y="63" fill="#E7F1E7" font-size="21" font-weight="650">Execution</text>
+      <text x="20" y="86" fill="#A4B3A6" font-size="17">Runner + model</text>
+    </g>
+    <path d="M960 161H988" stroke="#FFD48A" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <g transform="translate(1000 112)">
+      <rect width="152" height="98" rx="16" fill="#261F13" stroke="#856C36"/>
+      <text x="18" y="34" fill="#FFD48A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">05 / GATE</text>
+      <text x="18" y="63" fill="#FFF0C4" font-size="20" font-weight="650">Evidence</text>
+      <text x="18" y="86" fill="#C4AF79" font-size="16">accept / repair</text>
+    </g>
+  </g>
+
+  <path d="M1076 220V252H724" fill="none" stroke="#856C36" stroke-dasharray="5 7"/>
+  <circle cx="724" cy="252" r="5" fill="#FFD48A"/>
+  <text x="740" y="258" fill="#C4AF79" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">uncertain outcome → inspect / transfer / decision gate</text>
+</svg>

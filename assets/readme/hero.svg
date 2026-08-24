@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Orca Adaptive Orchestration</title>
+  <desc id="desc">A supervised lifecycle connecting Run, Task, Dispatch, Worker, and Quality Gate.</desc>
+
+  <defs>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8DF2A8" stop-opacity="0.12"/>
+      <stop offset="0.5" stop-color="#8DF2A8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#8CB4FF" stop-opacity="0.35"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9AB6A0" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="28" fill="#0B1110"/>
+  <rect x="1" y="1" width="1198" height="378" rx="27" fill="url(#grid)" stroke="#294034"/>
+  <path d="M56 52H1144" stroke="#294034"/>
+  <circle cx="70" cy="52" r="5" fill="#8DF2A8"/>
+  <text x="88" y="59" fill="#A4B3A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">ORCA / SUPERVISED COORDINATION</text>
+
+  <g id="title-block">
+    <text x="56" y="135" fill="#E7F1E7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="52" font-weight="700">Adaptive orchestration</text>
+    <text x="56" y="178" fill="#8DF2A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="29" font-weight="600">for real multi-agent work</text>
+    <text x="56" y="225" fill="#C1CEC3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="21">把复杂目标拆成可监督、可验收的 Orca Run。</text>
+    <text x="56" y="258" fill="#84978A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="18">Model routing · lifecycle authority · quality evidence</text>
+
+    <g transform="translate(56 304)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">
+      <rect width="92" height="34" rx="17" fill="#16241B" stroke="#426B4D"/>
+      <text x="46" y="22" text-anchor="middle" fill="#8DF2A8">RUN</text>
+      <rect x="106" width="104" height="34" rx="17" fill="#16241B" stroke="#426B4D"/>
+      <text x="158" y="22" text-anchor="middle" fill="#8DF2A8">TASK</text>
+      <rect x="224" width="132" height="34" rx="17" fill="#16241B" stroke="#426B4D"/>
+      <text x="290" y="22" text-anchor="middle" fill="#8DF2A8">DISPATCH</text>
+      <rect x="370" width="118" height="34" rx="17" fill="#182331" stroke="#49668E"/>
+      <text x="429" y="22" text-anchor="middle" fill="#A8C5FF">WORKER</text>
+    </g>
+  </g>
+
+  <g id="lifecycle-proof" transform="translate(690 98)">
+    <text x="0" y="0" fill="#84978A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="1">LIFECYCLE SIGNAL</text>
+    <path d="M36 78H366" stroke="url(#signal)" stroke-width="3" filter="url(#soft-glow)"/>
+    <path d="M366 78l-10-6v12z" fill="#8CB4FF"/>
+
+    <g transform="translate(0 42)">
+      <circle cx="36" cy="36" r="24" fill="#14251A" stroke="#8DF2A8" stroke-width="2"/>
+      <text x="36" y="42" text-anchor="middle" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">R</text>
+      <text x="36" y="82" text-anchor="middle" fill="#D5E3D6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Run</text>
+    </g>
+    <g transform="translate(110 42)">
+      <circle cx="36" cy="36" r="24" fill="#14251A" stroke="#8DF2A8" stroke-width="2"/>
+      <text x="36" y="42" text-anchor="middle" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">T</text>
+      <text x="36" y="82" text-anchor="middle" fill="#D5E3D6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Task</text>
+    </g>
+    <g transform="translate(220 42)">
+      <circle cx="36" cy="36" r="24" fill="#14251A" stroke="#8DF2A8" stroke-width="2"/>
+      <text x="36" y="42" text-anchor="middle" fill="#8DF2A8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">D</text>
+      <text x="36" y="82" text-anchor="middle" fill="#D5E3D6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Dispatch</text>
+    </g>
+    <g transform="translate(330 42)">
+      <circle cx="36" cy="36" r="24" fill="#182331" stroke="#8CB4FF" stroke-width="2"/>
+      <text x="36" y="42" text-anchor="middle" fill="#A8C5FF" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="700">W</text>
+      <text x="36" y="82" text-anchor="middle" fill="#D5E3D6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">Worker</text>
+    </g>
+
+    <path d="M36 180V216H366V180" fill="none" stroke="#426B4D" stroke-dasharray="5 7"/>
+    <circle cx="36" cy="216" r="5" fill="#FFD48A"/>
+    <text x="54" y="222" fill="#FFD48A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">evidence → Quality Gate</text>
+  </g>
+</svg>
