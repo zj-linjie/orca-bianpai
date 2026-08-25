@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Orca Adaptive Orchestration</title>
-  <desc id="desc">A supervised lifecycle connecting Run, Task, Dispatch, Worker, and Quality Gate.</desc>
+  <desc id="desc">An adaptive policy loop above the version-matched Orca runtime.</desc>
 
   <defs>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
@@ -24,13 +24,13 @@
   <rect x="1" y="1" width="1198" height="378" rx="27" fill="url(#grid)" stroke="#294034"/>
   <path d="M56 52H1144" stroke="#294034"/>
   <circle cx="70" cy="52" r="5" fill="#8DF2A8"/>
-  <text x="88" y="59" fill="#A4B3A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">ORCA / SUPERVISED COORDINATION</text>
+  <text x="88" y="59" fill="#A4B3A6" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2">ORCA / ADAPTIVE POLICY LAYER</text>
 
   <g id="title-block">
     <text x="56" y="135" fill="#E7F1E7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="52" font-weight="700">Adaptive orchestration</text>
     <text x="56" y="178" fill="#8DF2A8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="29" font-weight="600">for real multi-agent work</text>
-    <text x="56" y="225" fill="#C1CEC3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="21">把复杂目标拆成可监督、可验收的 Orca Run。</text>
-    <text x="56" y="258" fill="#84978A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="18">Model routing · lifecycle authority · quality evidence</text>
+    <text x="56" y="225" fill="#C1CEC3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="21">在 Orca Runtime 之上生成可解释、可验收的策略。</text>
+    <text x="56" y="258" fill="#84978A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', sans-serif" font-size="18">Analyze · Decompose · Route · Verify · Recover</text>
 
     <g transform="translate(56 304)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">
       <rect width="92" height="34" rx="17" fill="#16241B" stroke="#426B4D"/>
@@ -44,8 +44,8 @@
     </g>
   </g>
 
-  <g id="lifecycle-proof" transform="translate(690 98)">
-    <text x="0" y="0" fill="#84978A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="1">LIFECYCLE SIGNAL</text>
+  <g id="runtime-receipts" transform="translate(690 98)">
+    <text x="0" y="0" fill="#84978A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="1">ORCA RUNTIME RECEIPTS</text>
     <path d="M36 78H366" stroke="url(#signal)" stroke-width="3" filter="url(#soft-glow)"/>
     <path d="M366 78l-10-6v12z" fill="#8CB4FF"/>
 

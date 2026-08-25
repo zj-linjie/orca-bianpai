@@ -1,6 +1,6 @@
 # Orca Adaptive Orchestration Skill
 
-This context defines the language used to design an explicit-only skill that plans and supervises adaptive multi-agent work through Orca.
+This context defines the Policy Layer language used to analyze, decompose, route, verify, and recover adaptive work through Orca. Orca owns the runtime meanings and lifecycle of Run, Task, Dispatch, Worker, terminals, and worktrees; the definitions below only describe how policy decisions refer to those objects.
 
 ## Language
 
